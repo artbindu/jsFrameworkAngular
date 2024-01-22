@@ -4,7 +4,7 @@
         "**/node_modules": true,
         "**/.git": true,
         "**/.DS_Store": true,
-        "**/.vscode": true,
+        "**/.vscode": false,
         "**/.angular": true,
     },
 
