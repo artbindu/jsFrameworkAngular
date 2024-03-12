@@ -1,0 +1,12 @@
+<div style="background-color: skyblue; padding: 5px">
+<h2>Top Heroes</h2>
+<div class="heroes-menu">
+  <a *ngFor="let hero of heroes"
+      routerLink="/details/{{hero.id}}">
+      {{hero.id}} - {{hero.name}}
+  </a>
+</div>
+
+<app-hero-search></app-hero-search>
+</div>
+

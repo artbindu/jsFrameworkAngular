@@ -1,0 +1,17 @@
+<h1>{{title}}</h1>
+
+  <h2><b>Top Heroes</b></h2>
+  <div class="heroes-menu">
+    <!-- Hide in : Lesson:08-->
+    <!-- <a *ngFor="let hero of topHeroes">
+        {{hero.id}} - {{hero.name}} ({{hero.rating}})
+    </a> -->
+
+    <!-- Lesson:08 - Hero-Details Component -->
+    <a *ngFor="let hero of topHeroes"
+        routerLink="/details/{{hero.id}}">
+      {{hero.id}} - {{hero.name}} ({{hero.rating}})
+    </a>
+  </div>
+  <app-hero-search></app-hero-search>
+

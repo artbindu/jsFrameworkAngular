@@ -1,0 +1,14 @@
+<h1>{{title}}</h1>
+
+<div *ngIf="msgService.messageList.length">
+  <h2>Messages</h2>
+  <button class="clear" type="button" (click)="clearUIMsg()">
+      Clear Message
+  </button>
+  <div *ngFor="let msg of msgService.messageList">
+      {{msg}}
+  </div>
+</div>
+<div *ngIf="!msgService.messageList.length">
+  No Logs available
+</div>

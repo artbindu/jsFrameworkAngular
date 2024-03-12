@@ -1,0 +1,13 @@
+
+
+<div style="background-color: green; padding: 5px">
+<div *ngIf="msgService.messages.length">
+    <h2>Messages</h2>
+    <button class="clear" type="button" (click)="msgService.clear()">
+        Clear Message
+    </button>
+    <div *ngFor="let msg of msgService.messages">
+        {{msg}}
+    </div>
+</div>
+</div>

@@ -1,0 +1,17 @@
+<h1>{{title}}</h1>
+
+<!-- Disabled at Lesson:06 -->
+<!-- <button>Dashboard</button>
+<button>Home</button>
+<app-dashboard></app-dashboard>
+<app-heroes></app-heroes> -->
+
+<!-- Lesson:06 - Add Routing to separate Dashboard & Heroes Component -->
+<nav>
+  <a routerLink="/dashboard">Dashboard</a> &nbsp;
+  <a routerLink="/heroes">Heroes</a>
+</nav>
+<router-outlet></router-outlet>
+
+<!-- Lesson:07 - Add Message Component & Service-->
+<app-message></app-message>

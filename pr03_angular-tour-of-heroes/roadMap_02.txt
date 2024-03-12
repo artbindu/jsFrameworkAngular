@@ -1,0 +1,26 @@
+# Project:02 Angular-Tour-of
+### Road Map
+- L01: Create Basic Angular app with routing
+
+- L02: Create "Heroes" Component and add a Method to show all Heros
+- L03: Create "Heroes" Service to add and delete feature of "Hero" Component
+
+- L04: Create "Dashboard" Component
+- L05: Inject "Heroes" service and add a Method to show top 5 rating Heros
+
+- L06: Create / Modify Routing feature to navigate "Dashboard" & "Heroes" Component
+
+- L07: Create Message (log) component & its feature to track all type of activities in App Component
+
+- L08: Create "HeroDetails" component to show Hero Information in details
+      Add "HeroDetails" component rendering feature from "Dashboard" component
+- L09: Create "HeroDetails" feature to update Hero Name & rating
+
+- L10: Add & Delete Hero feature in Heroes Component
+
+- L11: Add Hero feature in Create "HeroSearch" component and add this component at "Dashboard"
+  Add "HeroSearch" routing feature to "HeroDetails" component
+
+- L12: Add Observable Service in 'HeroService'
+
+- L13: Enable HTTP services and Simulate data-server
